@@ -1,192 +1,64 @@
-
-/* Reset some default styles */
+/* Body */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
+    text-align: center;
 }
 
-/* Navigation bar */
+/* Navbar */
 nav {
     background-color: #333;
     padding: 15px;
-    text-align: center;
 }
 
 nav a {
     color: white;
     margin: 0 15px;
     text-decoration: none;
-    font-weight: bold;
+    font-size: 18px;
 }
 
 nav a:hover {
-    color: #ff9800;
+    color: orange;
 }
 
 /* Headings */
 h1 {
-    text-align: center;
     margin-top: 20px;
     color: #333;
 }
 
-/* Search section */
-#search {
-    display: block;
-    margin: 20px auto;
+h2 {
+    margin-top: 20px;
+}
+
+/* Input box */
+input {
     padding: 10px;
     width: 250px;
     font-size: 16px;
 }
 
+/* Button */
 button {
-    display: block;
-    margin: 10px auto;
     padding: 10px 20px;
-    background-color: #ff9800;
+    background-color: orange;
     border: none;
     color: white;
-    cursor: pointer;
     font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
 }
 
 button:hover {
-    background-color: #e68900;
+    background-color: darkorange;
 }
 
-/* Result section */
-#result {
-    text-align: center;
-    margin-top: 20px;
-}
-
-/* Images */
+/* Result images */
 #result img {
     width: 200px;
-    height: 150px;
     margin: 10px;
     border-radius: 8px;
-}
-
-/* About & Contact text */
-p {
-    text-align: center;
-    padding: 10px 20px;
-    color: #555;
-}
-
-/* Form styling */
-form {
-    width: 300px;
-    margin: 20px auto;
-    text-align: center;
-}
-
-form input,
-form textarea {
-    width: 100%;
-    padding: 10px;
-    margin: 8px 0;
-}
-
-form button {
-    width: 100%;
-
-/* Reset some default styles */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-}
-
-/* Navigation bar */
-nav {
-    background-color: #333;
-    padding: 15px;
-    text-align: center;
-}
-
-nav a {
-    color: white;
-    margin: 0 15px;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-nav a:hover {
-    color: #ff9800;
-}
-
-/* Headings */
-h1 {
-    text-align: center;
-    margin-top: 20px;
-    color: #333;
-}
-
-/* Search section */
-#search {
-    display: block;
-    margin: 20px auto;
-    padding: 10px;
-    width: 250px;
-    font-size: 16px;
-}
-
-button {
-    display: block;
-    margin: 10px auto;
-    padding: 10px 20px;
-    background-color: #ff9800;
-    border: none;
-    color: white;
-    cursor: pointer;
-    font-size: 16px;
-}
-
-button:hover {
-    background-color: #e68900;
-}
-
-/* Result section */
-#result {
-    text-align: center;
-    margin-top: 20px;
-}
-
-/* Images */
-#result img {
-    width: 200px;
-    height: 150px;
-    margin: 10px;
-    border-radius: 8px;
-}
-
-/* About & Contact text */
-p {
-    text-align: center;
-    padding: 10px 20px;
-    color: #555;
-}
-
-/* Form styling */
-form {
-    width: 300px;
-    margin: 20px auto;
-    text-align: center;
-}
-
-form input,
-form textarea {
-    width: 100%;
-    padding: 10px;
-    margin: 8px 0;
-}
-
-form button {
-    width: 100%;
-
 }
